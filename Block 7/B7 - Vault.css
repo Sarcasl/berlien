@@ -1,0 +1,17 @@
+h1 {
+    padding: 60px;
+    text-align: center;
+    background: rgb(72, 43, 153);
+    color: rgb(38, 129, 114);
+    font-size: 30px;
+  }
+
+
+body{
+    background-image: url(https://images.pexels.com/photos/15049667/pexels-photo-15049667.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
