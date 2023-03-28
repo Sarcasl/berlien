@@ -1,0 +1,75 @@
+h1 {
+    padding: 60px;
+    text-align: center;
+    background: teal;
+    color: white;
+    font-size: 30px;
+  }
+
+h3 {
+    background-color: lemonchiffon;
+    color: forestgreen;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/1599791/pexels-photo-1599791.jpeg)
+}
+
+
+img{
+    background-color: darkkhaki;
+    width: 300px;
+    height: 300px;
+    border: 10px solid gray; 
+    padding: 15px;
+    display:block;
+}
+/* Padding on images */
+section{margin: 75px;
+    display: block;
+}
+
+#vegetables{
+    background-color: cornflowerblue;
+    float: left;
+    width: 300px;
+    height: 300px;
+    border: 10px solid gray; 
+    display:block
+}
+
+#drinks{
+    background-color: cornflowerblue;
+    float: left;
+    width: 300px;
+    height: 300px;
+    border: 10px solid gray; 
+    display:block
+}
+
+
+
+#drygoods{
+    background-color: cornflowerblue;
+    float: left;
+    width: 300px;
+    height: 300px;
+    border: 10px solid gray; 
+    display:block
+}
+
+#spices{
+    background-color: cornflowerblue;
+    float: left;
+    width: 300px;
+    height: 300px;
+    border: 10px solid gray; 
+    display:block
+}
+
+
+.boxes{display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+}
+/* Box models for lists and images. */
