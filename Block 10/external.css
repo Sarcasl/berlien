@@ -37,7 +37,7 @@ h1 {
     font-size: 350%;
   }
 
-
+ 
 
   .container {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -67,7 +67,7 @@ h1 {
   background-color: blue;
   z-index: -1;}
 
-/* z-index is used to prioritze which shapes go in front to back */
+/* Every entry starting with a dot is a defined hierarchal class which will select all style elements and apply the style elements. z-index is used to prioritize which shapes go in front to back */
 
 .Crimson { grid-area: Crimson; 
   position:absolute;
@@ -171,4 +171,4 @@ h1 {
       margin: 5px 5px 7px 9px;
       background-color: khaki;}
 
-/* This box used cm CSS units */
+/* This box uses cm CSS units */
