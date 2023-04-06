@@ -1,33 +1,30 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   body {
-    background-color: olive;
-  }
-
-}
-
-@media screen and (max-width: 1080px) {
-  body {
-    background-color: olive;
+    background-color: lightblue;
   }
 
 }
 
 @media screen and (max-width: 768px) {
   body {
-    background-color: olive;
+    background-color: lightblue;
   }
 
 }
 
+@media screen and (max-width: 320px) {
+  body {
+    background-color: lightblue;
+  }
+
+}
+/* Using @media to have the page work with any screen size */
 
 
 body{
-    background-image: url(https://images.pexels.com/photos/531972/pexels-photo-531972.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+  background: url(https://images.pexels.com/photos/531972/pexels-photo-531972.jpeg) no-repeat fixed center;
 }
+/* CSS Shorthand is used for background */
 
 
 
@@ -54,7 +51,7 @@ h1 {
     width:100%;
   }
   
-
+/* CSS Grid */
 
 
 
@@ -70,6 +67,7 @@ h1 {
   background-color: blue;
   z-index: -1;}
 
+/* z-index is used to prioritze which shapes go in front to back */
 
 .Crimson { grid-area: Crimson; 
   position:absolute;
@@ -86,6 +84,8 @@ h1 {
   background-repeat: no-repeat;
   background-position: left, right;
   z-index: 1}
+/* The CSS units px and percentages are used for the shapes */
+
 
 
 .Olive { grid-area: Olive; 
@@ -94,14 +94,8 @@ h1 {
   left: 875px;
   width: 125px;
   height: 195px;
-  margin: 5px 5px 7px 9px;
   background-color: Olive;
   z-index: 2;}
-
-
-
-
-
 
 
 .Grey { grid-area: Grey; 
@@ -115,10 +109,6 @@ h1 {
   border-radius:50%;
   z-index: 3}
       
-
-
-
-
 
 .Yellow { grid-area: Yellow; 
   position:absolute;
@@ -136,7 +126,7 @@ h1 {
 
 
 .S1{ grid-area: S1; 
-    position:absolute;
+  position:absolute;
     top: 900px;
     left: 1000px;
     width: 150px;
@@ -147,7 +137,7 @@ h1 {
 
 
 .S2{ grid-area: S1; 
-    position:absolute;
+  position:absolute;
     top: 900px;
     left: 750px;
     width: 150px;
@@ -156,33 +146,29 @@ h1 {
     z-index: 2;}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .form { grid-area: Form; 
-    padding: 1cm;
-        position:relative;
-        top: 1250px;
-        left: 825px;
-        width: 150px;
-        height: 150px;
-        text-align: center;
-        font-weight: bold;
-        background-color: lightyellow;}
+.form { grid-area: Form; 
+  padding: 1cm;
+  position:relative;
+      top: 1250px;
+      left: 825px;
+      width: 150px;
+      height: 150px;
+      text-align: center;
+      font-weight: bold;
+      background-color: lightyellow;}
 
     
+
+.S3 { grid-area: Form; 
+  padding: 1cm;
+  position:sticky;
+      top: 5cm;
+      left: 20cm;
+      width: 10cm;
+      height: 5cm;
+      text-align: center;
+      font-weight: bold;
+      margin: 5px 5px 7px 9px;
+      background-color: khaki;}
+
+/* This box used cm CSS units */
